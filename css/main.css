@@ -1,0 +1,171 @@
+h1 {
+    /* color: blue;
+    text-shadow: 2px 2px 5px red; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    display:inline-block; 
+    margin-left: 190px;
+    cursor:grab;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  /* margin-left: 200px; */
+  -webkit-box-reflect: right 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+ 
+}
+
+h2{
+    color: blue;
+    text-shadow: 2px 2px 5px red;
+
+}
+h2.special{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  display:inline-block; 
+ 
+  cursor:grab;
+  text-align: center;
+
+}
+
+h5 {
+  color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    display:inline-block; 
+    margin-left: 150px;
+    cursor:grab;
+    display: inline-block;
+    font-size:34px;
+    
+}
+
+.big1 {
+
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  text-align: center;
+  animation-direction: alternate;
+
+}
+.big1 {animation-timing-function: linear;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1300px;}
+}
+    
+
+.big2 {
+
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  text-align: center;
+  animation-direction: alternate;
+}
+.big2 {animation-timing-function: ease;}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1300px;}
+}
+
+
+
+.big3 {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  margin-top: 20px;
+  animation-direction: alternate;
+  text-align: center;
+}
+.big3 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1300px;}
+}
+.big4 {
+  border: thick double #32a1ce;
+  background-color: rgba(117, 190, 218, 0.5);   
+  text-align: center;
+  border-color: red yellow green hsla(60, 90%, 50%, .8);
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+
+button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  box-shadow: 7px 7px;
+}
+
+button:hover {
+  background-color: #101ff0;
+  color: white;
+    
+}
+body { 
+  /* background: lightblue url("img_tree.gif") no-repeat fixed center;  */
+  background-image: url("img_tree"), url("paper.gif");
+  background-color: #cccccc;
+}
+
+  
+
+
+.nice {
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .nice td, .nice th {
+    border: 1px solid rgb(240, 12, 31);
+    padding: 8px;
+  }
+  
+  .nice tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .nice tr:hover {background-color: rgb(220, 243, 14);}
+  
+  .nice th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
